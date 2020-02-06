@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondWpf", "SecondWpf\SecondWpf.csproj", "{90DF7598-0B52-4569-82F1-2A4B7769CB90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondWpf.lib", "SecondWpf.lib\SecondWpf.lib.csproj", "{EC249854-48F8-43A8-A609-436D9D6DF8DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90DF7598-0B52-4569-82F1-2A4B7769CB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90DF7598-0B52-4569-82F1-2A4B7769CB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90DF7598-0B52-4569-82F1-2A4B7769CB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90DF7598-0B52-4569-82F1-2A4B7769CB90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC249854-48F8-43A8-A609-436D9D6DF8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC249854-48F8-43A8-A609-436D9D6DF8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC249854-48F8-43A8-A609-436D9D6DF8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC249854-48F8-43A8-A609-436D9D6DF8DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E3A06F1-45F4-4B78-862D-1CE0C0AB0155}
+	EndGlobalSection
+EndGlobal

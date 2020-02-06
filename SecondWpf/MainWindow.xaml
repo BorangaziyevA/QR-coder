@@ -1,0 +1,43 @@
+﻿<Window x:Class="SecondWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SecondWpf"
+        mc:Ignorable="d"
+        Title="QR Generation" Height="600" Width="500" ResizeMode="NoResize">
+
+    <Grid ShowGridLines="True" Background="Black" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Label Margin="10 0 0 0" Grid.Row="0" Foreground="White" FontSize="25">Текст для кодирования</Label>
+        <Border Grid.Row="1" CornerRadius="10"  BorderThickness="1" Margin="20 10 20 10">
+            <TextBox Grid.Row="1" Text="Text" x:Name="tbxText"></TextBox>
+        </Border>
+        <Label Margin="10 0 0 0" Grid.Row="2" Foreground="White" FontSize="25">Размер изображения</Label>
+        <StackPanel  Grid.Row="3" Orientation="Horizontal" x:Name="spSize">
+            <RadioButton Foreground="White" Margin="10" VerticalContentAlignment="Center" IsChecked="false">1</RadioButton>
+            <RadioButton Foreground="White" Margin="10" VerticalContentAlignment="Center" IsChecked="false">2</RadioButton>
+            <RadioButton Foreground="White" Margin="10" VerticalContentAlignment="Center" IsChecked="false">3</RadioButton>
+            <RadioButton Foreground="White" Margin="10" VerticalContentAlignment="Center" IsChecked="false">4</RadioButton>
+            <RadioButton Foreground="White" Margin="10" VerticalContentAlignment="Center" IsChecked="false">5</RadioButton>
+            <RadioButton Foreground="White" Margin="10" VerticalContentAlignment="Center" IsChecked="false">6</RadioButton>
+            <RadioButton Foreground="White" Margin="10" VerticalContentAlignment="Center" IsChecked="false">7</RadioButton>
+            <RadioButton Foreground="White" Margin="10" VerticalContentAlignment="Center" IsChecked="false">8</RadioButton>
+        </StackPanel>
+        <Button Grid.Row="6" Margin="20" Background="Cyan" Foreground="White" FontSize="30" Click="BtnGenerate_Click">Сгенерировать QR-code </Button>
+    </Grid>
+    
+
+</Window>
